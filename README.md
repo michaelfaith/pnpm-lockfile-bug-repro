@@ -1,4 +1,6 @@
-# PNPM Frozen Lockfile Bug
+# pnpm Frozen Lockfile Bug (#16543)
+
+https://github.com/pnpm/pnpm/issues/16543
 
 This repo reproduces a bug introduced in pnpm 12.8.0. If one package references another package using `file:` path, and the consumed package has an optional peer dependency, then running install with `--frozen-lockfile` always fails with
 
