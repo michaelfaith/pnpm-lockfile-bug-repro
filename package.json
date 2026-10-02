@@ -1,0 +1,13 @@
+{
+  "name": "root-package",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "eslint": ">=9"
+  },
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": true
+    }
+  },
+  "packageManager": "pnpm@12.8.0"
+}
